@@ -8,3 +8,8 @@ Contact me:
 -----------
 Gmail : inventivearya@gmail.com
 Instagram: inventivearya
+
+---------------------------------------
+Notice:
+For python course core+advanve email me
+---------------------------------------
