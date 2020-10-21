@@ -11,13 +11,13 @@ Gmail : Inventivearya@gmail.com
 import pyttsx3
 import PyPDF2
 book_name=input("Enter File Name: ")
-page_num=input("Enter Page Number From Where You Want to Start: ")
+page_num=int(input("Enter Page Number From Where You Want to Start: "))
 book = open(book_name, 'rb')
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 
 speaker = pyttsx3.init()
-for num in range(7, pages):
+for num in range(page_num, pages):
     page = pdfReader.getPage(num)
     text = page.extractText()
     speaker.say(text)
