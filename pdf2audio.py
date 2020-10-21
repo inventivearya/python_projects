@@ -3,7 +3,7 @@ Project_Name: pdf file to audio converter
 Descrition: This file will convert pdf file in audio
 Credit: Inventive Arya
 Instagram: Inventivearya
-Gmail : Inventivearya@gmail.com
+Gmail : inventivearya@gmail.com
 """
 
 #Program 
